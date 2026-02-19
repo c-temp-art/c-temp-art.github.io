@@ -1,0 +1,25 @@
+/* Full-page background image styling with upper part focus */
+.full-page-image {
+    background-image: url('images/fashionframe.jpg'); /* Path to the image */
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-position: top; /* Show more of the upper part of the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    position: relative;
+}
+
+/* Overlay text box styling */
+.overlay-text {
+    position: absolute;
+    font-size: 65px;
+    font-family: Impact;
+    background-color: #CCCCFF;
+    right: 150px;
+    top: 150px;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
